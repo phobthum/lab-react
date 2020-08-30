@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import WordCard from './WordCard';
 
+const word = "Hello"
 function App() {
   return (
-    <div className="App">
-      hello world
+    <div>
+      <WordCard value={word}/>
     </div>
   );
 }
